@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- You can also add or configure plugins by creating files in this `plugins/` folder
 -- Here are some examples:
@@ -34,6 +34,13 @@ return {
         "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
         "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
         "    ██   ████   ████   ██ ██      ██",
+        " ",
+        "        __    ___  ___   ___  _______ ",
+        "       /  /__/  / /  /  /  / /  ____/ ",
+        "      /        / /  /__/  / /  /__    ",
+        "     /  /__/  / /  ___   / /  ___/    ",
+        "    /  /  /  / /  /  /  / /  /		     ",
+        "   /__/  /__/ /__/  /__/ /__/ 		     ",
       }
       return opts
     end,

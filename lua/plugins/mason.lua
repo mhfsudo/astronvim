@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- Customize Mason plugins
 
@@ -12,6 +12,17 @@ return {
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
         "lua_ls",
+        "ansiblels",
+        "bashls",
+        "dockerls",
+        "gopls",
+        "groovyls",
+        "helm-ls",
+        "html",
+        "jsonls",
+        "rust_analyzer",
+        "terraformls",
+        "yamlls",
         -- add more arguments for adding more language servers
       })
     end,
@@ -23,8 +34,21 @@ return {
     opts = function(_, opts)
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
+        "beautysh",
+        "golines",
         "prettier",
         "stylua",
+        "ansible-lint",
+        "gitleaks",
+        "gitlint",
+        "golangci-lint",
+        "htmlhint",
+        "npm-groovy-lint",
+        "pyre",
+        "sonarlint-language-server",
+        "write-goog",
+        "yamllint",
+        "yamlfmt",
         -- add more arguments for adding more null-ls sources
       })
     end,
@@ -36,6 +60,9 @@ return {
       -- add more things to the ensure_installed table protecting against community packs modifying it
       opts.ensure_installed = require("astrocore").list_insert_unique(opts.ensure_installed, {
         "python",
+        "bash-debug-adapter",
+        "go-debug-adapter",
+        "java-debug-adapter",
         -- add more arguments for adding more debuggers
       })
     end,
