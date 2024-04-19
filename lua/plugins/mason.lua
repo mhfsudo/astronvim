@@ -17,6 +17,7 @@ return {
         "dockerls",
         "gopls",
         "groovyls",
+        "helm_ls",
         "html",
         "jsonls",
         "rust_analyzer",
