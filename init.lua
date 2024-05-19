@@ -17,3 +17,11 @@ end
 
 require "lazy_setup"
 require "polish"
+require "community"
+require "astrocore"
+require "astrolsp"
+require "astroui"
+require "mason"
+require "obsidian"
+
+vim.opt.conceallevel = 2 -- required for Obsidian
